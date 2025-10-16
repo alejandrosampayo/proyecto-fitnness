@@ -3,9 +3,10 @@
 /*ETIQUETA*/
 
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 p{
@@ -31,10 +32,8 @@ font-weight: 400;
 font-style: normal;
 
 
-
 /* EQUIPO---------------------------------------------------------------------------------------------*/
-
-
+ 
 .teams-card{
     display: flex;
     flex-direction: row; 
@@ -480,7 +479,6 @@ font-style: normal;
 }
 
 header{
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -876,18 +874,9 @@ nav{
 /*SECCION FOOTER---------------------------------------------------------------------------*/
 
 
-
-
-
-
-
-
-
-
-
 /*RESPONSIVE MOBILE - INICIO---------------------------------------------------------------------------*/
 
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
 header {
         flex-direction: column;
