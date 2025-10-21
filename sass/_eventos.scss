@@ -1,3 +1,6 @@
+@use"variables"as*;
+
+
 /*INICIO DE LOS ESTILOS EVENTOS*/
 
 
@@ -8,7 +11,7 @@
     top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white
+    color: $blanco
 
     
 }
@@ -24,13 +27,13 @@
     .caja1 {
         flex-grow: 1;
         height: 100%;
-        background-color: #13678A;
+        background-color: $azulado;
     }
 
     .meditacion {
         font-size: 1.2rem;
         font-weight: 600;
-        color: #012030;
+        color: $azuladooscuro;
         text-align: center;
         margin: 30px;
     }
@@ -39,26 +42,26 @@
         margin: -20px;
         margin-left: auto;
         margin-right: auto;
-        color: #012030;
+        color: $azuladooscuro;
         text-align: center;
     }
 
     .caja2 {
         flex-grow: 1;
         height: 100%;
-        background-color: #45C4B0;
+        background-color: $verdoso;
     }
 
     .caja3 {
         flex-grow: 1;
         height: 100%;
-        background-color: #9AEBA3;
+        background-color: $accua;
     }
 
     .caja4 {
         flex-grow: 1;
         height: 100%;
-        background-color: #DAFDBA;
+        background-color: $accuamarina;
     }
 }
 
@@ -78,7 +81,7 @@
         padding-left:4%;
         padding-right: 4%;
         width: 100%;
-        color: #919090;
+        color: $grismedio;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: left;
         font-size: 1rem;
@@ -90,7 +93,7 @@
 
 .iconos-fittness {
     font-size: 1.3rem;
-    background-color: white;
+    background-color: $blanco;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -106,14 +109,14 @@
     .parrafos {
         height: 100px;
         width: 300px;
-        color: rgb(189, 187, 187);
+        color: $griss;
         font-size: 1rem;
         text-align: center;
     }
 }
 
 .container-orange {
-    background-color: orangered;
+    background-color: $naranga;
     padding-top: 30px;
 
     .container-parrafo {
@@ -127,7 +130,7 @@
         transform: translate(-50%, -50%);
         font-size: 5rem;
         font-weight: 700;
-        color: white;
+        color: $blanco;
     }
 }
 
@@ -147,7 +150,7 @@
         height: 41%;
         margin-top: 20px;
         margin-bottom: 30px;
-        background-color: #f0f0f0;
+        background-color: $blancogrisaseo
     }
 
     .cajaInstagram {
@@ -158,7 +161,7 @@
         height: 41%;
         margin-bottom: 30px;
         margin-top: 20px;
-        background-color: #f0f0f0;
+        background-color: $blancogrisaseo;
     }
 
     .cajaTwitter {
@@ -169,7 +172,7 @@
         height: 41%;
         margin-bottom: 30px;
         margin-top: 20px;
-        background-color: #f0f0f0;
+        background-color: $blancogrisaseo;
     }
 
     .cajaYoutube {
@@ -180,7 +183,7 @@
         height: 41%;
         margin-bottom: 30px;
         margin-top: 20px;
-        background-color: #f0f0f0;
+        background-color: $blancogrisaseo;
     }
 }
 /*FIN DE LOS ESTILOS EVENTOS*/

@@ -1,3 +1,7 @@
+
+@use"variables"as*;
+
+
 /*INICIO DE LOS ESTILOS INDEX*/
 
 .contenedor-imagen {
@@ -13,7 +17,7 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: $blanco;
 }
 
 .clases{
@@ -24,12 +28,12 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white
+    color: $blanco;
 }
 
 .nuestroPrograma{
     font-family: "Zain", sans-serif;
-    background-color: rgb(232, 228, 228);
+    background-color: $grisclaro;
     height: 50px;
     text-align: center;
     font-size: 2.3rem;   
@@ -40,7 +44,7 @@
     text-align: center;
     font-family: "Zain", sans-serif;
     font-family:"Zain", sans-serif; ;
-    background-color: rgb(232, 228, 228);
+    background-color: $grisclaro;
     margin: 0;
 }
 
@@ -51,7 +55,7 @@
     text-align: center;
     height: 260px;
     padding: 50px 0px;
-    background-color: rgb(232, 228, 228);  
+    background-color: $grisclaro;  
 }
   .equipamiento{
     width: 100px;
@@ -83,11 +87,11 @@
     font-weight: 600;
     font-size: 1.2rem;
     margin-top: 30px;
-    color: rgb(46, 47, 47);
+    color: $grismasoscuro;
 }
 
 .fondo-Negro {
-    background: linear-gradient(to right, #005C53, #DBF227);
+    background: linear-gradient(to right, $verdeperlado, $amarillointenso);
 
     .elPoder {
         font-family: "Zain", sans-serif;
@@ -97,7 +101,7 @@
         top: 165%;
         left: 61%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: $blanco;
     }
 
     .descripcion {
@@ -109,7 +113,7 @@
         top: 190%;
         left: 61%;
         transform: translate(-50%, -50%);
-        color: white
+        color: $blanco;
     }
 
 }
@@ -129,14 +133,12 @@
 
 
 .fondogris{
-    background-color: #f1f1f1;
+    background-color: $grisclarito;
     border-radius: 5px;
     padding: 20px 0px;
     padding-left: 80px;
     padding-right: 80px;
 }
-
-
 
 
 .planesPrecios {
@@ -158,7 +160,7 @@
         text-align: center;
         font-weight: 800;
         font-size: 2.5rem;
-        color: #D93D04
+        color: $naranga;
     }
 
     .mes {
@@ -167,13 +169,13 @@
 
     .espacios {
         line-height: 0.4;
-        color: #919090;
+        color: $grismedio;
     }
 
     .my-button {
         padding: 10px 20px;
-        background-color: #4CAF50;
-        color: white;
+        background-color: $verde;
+        color: $blanco;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -182,39 +184,27 @@
     }
 
     .my-button:hover {
-        background-color: #155c18;
+        background-color: $verdehoover;
     }
 
     .my-button:active {
-        background-color: #3e8e41;
+        background-color: $verdeactive;
     }
 
     .planAvanzado {
-        text-align: center;
-        font-family: "Zain", sans-serif;
-        font-size: 1.5rem;
-        font-weight: 700;
+        @extend .planBasico;
     }
 
     .precioAvanzado {
-        text-align: center;
-        font-weight: 800;
-        font-size: 2.5rem;
-        color: #D93D04
+        @extend .precioBasico;
     }
 
     .planFuerte {
-        text-align: center;
-        font-family: "Zain", sans-serif;
-        font-size: 1.5rem;
-        font-weight: 700;
+        @extend .planBasico;
     }
 
     .precioFuerte {
-        text-align: center;
-        font-weight: 800;
-        font-size: 2.5rem;
-        color: #D93D04
+        @extend .precioBasico;
     }
 
 }
@@ -225,17 +215,17 @@
     justify-content: space-evenly;
     font-size: 2rem;
     text-align: center;
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    color: $blanco;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     margin-bottom: 0px;
-    background-color:#000000;
+    background-color:$negro;
     height: 90px;
     align-items: center;
 }
 
 .teams-card {
-    background-color: #000000;
+    background-color: $negro;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -255,7 +245,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #c9ea11;
+        background-color: $verdemusgo;
         align-items: center;
         margin: 15px;
         width: 260px;
@@ -270,7 +260,7 @@
     .team-title {
         font-size: 1.5rem;
         font-weight: 600;
-        color: #0e0e0e;
+        color: $negro;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 40px;
         margin-bottom: -10px;
@@ -278,8 +268,9 @@
 
     .team-subtitle {
         font-size: 1rem;
-        color: #504f4f;
+        color: $grisaseo;
         font-family: Arial, Helvetica, sans-serif;
     }
 }
 /* DE LOS ESTILOS INDEX*/
+
