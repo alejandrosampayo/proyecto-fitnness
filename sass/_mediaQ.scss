@@ -1,0 +1,442 @@
+@media  (max-width: 480px) {
+
+
+header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .logo {
+        width: 55px;
+        align-items: center;
+    }
+
+    nav {
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+
+.texto-superpuesto {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.3rem;
+    top: 10%;
+    margin: 20px 0px;
+    align-items: center;
+    color:white
+    }
+
+.clases{
+    display: none;
+}    
+
+.nuestroPrograma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Zain", sans-serif;
+    background-color: rgb(232, 228, 228);
+    height:150px;
+    font-size:1.6rem;
+}
+
+.ofrecer{
+    display: none;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 560px;
+    padding: 50px 0px;
+   
+    background-color: rgb(232, 228, 228);
+}
+   
+.natacion{
+    justify-content: center;
+    width: 60px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nutricion{
+    justify-content: center;
+    width: 60px;
+    font-size: 1rem;
+    font-weight: 700; 
+}
+
+.plan{
+    justify-content: center;
+    width: 60px;
+    font-size: 1rem;
+    font-weight: 700;   
+}
+
+.equipamiento{
+    justify-content: center;
+    width: 60px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.actividades{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.womanfit{
+    width: 100%;  
+}
+
+
+.descripcion{
+    display: none;
+
+}
+
+.elPoder{
+    display: none;
+}
+
+.plan-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.mujer{
+    width: 100%;
+}
+
+.fondogris{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px 0px;
+}
+
+
+.planesPrecios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 1400px;
+    justify-content: space-evenly;
+    padding: 40px;
+    padding-top: 10px;
+}
+
+.planBasico{
+    background-color:#DBF227;
+    border-radius: 5px;
+    color: #000000;
+}
+.precioBasico{
+    color:#3b3b3b;
+}
+
+.mes{
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.espacios{
+    font-size: 1rem;
+    color: #717070;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color:#aaf861;
+  color: rgb(3, 3, 3);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.my-button:hover {
+  background-color: #155c18;
+  color: white;
+}
+
+.planAvanzado{
+    background-color:#DBF227;
+    border-radius: 5px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.precioAvanzado{
+    color:#3b3b3b;
+}
+
+
+.planFuerte{
+    background-color:#DBF227;
+    border-radius: 5px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.precioFuerte{
+    color:#3b3b3b;
+}
+
+.teams{
+    height: 100px;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.all{
+    background-color: #d0d1d167;
+    padding: 20px 0px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.fondonegroprofesionales{
+    display: none;
+}
+
+
+
+
+/* -RESPONSIBE MOVIEL - EVENTOS---------------------*/
+
+.contenedor-imagen{
+    width: 100%;
+}
+
+.cajas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    position: absolute;
+}
+
+
+.bienvenida{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: -450px; 
+}
+
+.tituloG{
+    width: 100%;
+    font-size: 1rem;
+    padding-top: 30px;
+}
+
+.subtitulo{
+    width: 100%;
+    padding-top: 10px;
+    padding-left:4%;
+    padding-right: 4%;
+    margin-bottom:170px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.iconos-fittness{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1000px;
+  padding-bottom: 300px;
+  padding-top: 300px;
+}
+
+.container-orange{
+    padding-top: 70px;
+    margin-top: 270px;
+    background-color: orangered;
+    width: 100%;
+}
+
+.mujer.img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+.container-img{
+    width: 100%;
+}
+
+.container-parrafo{
+    width: 100%;
+    height: 20px;
+    padding: 70px;
+    left: 41%;
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align:end;
+    font-size: 2rem;
+    line-height: 80px;
+   
+}
+
+
+.cajasRedes{
+    
+    width: 100%;
+}
+
+
+/* -RESPONSIBE MOVIL - EVENTOS FIN---------------------*/
+
+
+/* -RESPONSIVE MOVIL - EQUIPO---------------------*/
+
+.fondonegroequipo{
+    background-color: rgb(0, 0, 0);  
+}
+
+
+.textoequipo {
+    width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3rem;
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+.contamos{
+   display: none;
+}
+
+
+.teams-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-text{
+    background-color: #DBF227;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    bottom: 30px;
+    position: relative;
+    justify-items: center;
+    font-size: 1rem;
+}
+
+.teams{
+    font-size: 1.2rem;
+}
+
+.teams-card{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+
+.program{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+
+}
+
+.number{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    color: #cccccc41;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.number-title{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #504f4f;
+    position: absolute;
+    font-weight: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.the-main-thing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+
+}
+
+.for-us{
+    width: 84%;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -RESPONSIVE MOVIEL - EQUIPO FIN---------------------*/
+
+
+/* -RESPONSIVE MOVIEL - FOOTER---------------------*/
+.social{
+    color: orangered
+}
+}

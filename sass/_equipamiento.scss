@@ -1,0 +1,94 @@
+/*INICIO DE LOS ESTILOS EQUIPAMIENTO*/
+
+.fondonegroequipo {
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+}
+
+
+.textoequipo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 6rem;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+.contamos{
+    font-size: 1.3rem;
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 50%;
+    right: 50;
+    transform: translate(-50%, -50%);
+    color: white;
+    justify-content: center; 
+    padding: 50px;
+    padding-bottom: 5px;
+}
+
+
+.teams{
+    margin-top: 0;
+}
+
+.teams-card {
+    display: flex;
+    flex-direction: row;
+
+    .cards {
+        width: 18rem;
+    }
+}
+
+.program {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    position: relative;
+
+    .the-main-thing {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffffff;
+    }
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: #cccccc41;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    .number-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: #504f4f;
+        position: absolute;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+/*FIN DE LOS ESTILOS EQUIPAMIENTO*/
