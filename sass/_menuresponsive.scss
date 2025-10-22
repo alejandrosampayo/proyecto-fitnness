@@ -1,0 +1,37 @@
+
+.style{ 
+    width: 100%;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.dropdown-menu {
+  animation: 0.5s slideup;
+}
+
+@keyframes slideup {
+  from {
+    transform: translateY(10%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

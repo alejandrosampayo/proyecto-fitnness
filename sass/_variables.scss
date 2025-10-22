@@ -38,8 +38,27 @@ $font:Arial, Helvetica, sans-serif;
 
 
 
+/*MIXIN SIN PARAMETROS*/
+
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
+/*MIXIN CON PARAMETROS*/
+
+@mixin tamanio ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
 
 
+@mixin flex ($direction, $justify, $aling){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
 
+}

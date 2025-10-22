@@ -12,6 +12,8 @@ header {
 
     .logo {
         text-align: center;
+
+        
     }
 
     .logo {
@@ -23,6 +25,38 @@ header {
         width: 90%;
         justify-content: space-evenly;
     }
+
+
+.style {
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
 
 
 .texto-superpuesto {
@@ -231,6 +265,21 @@ header {
 
 /* -RESPONSIBE MOVIEL - EVENTOS---------------------*/
 
+
+.textoevento{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.3rem;
+    top: 3%;
+    margin: 20px 0px;
+    align-items: center;
+    color:$blanco;
+    line-height: 50px;
+    }
+
 .contenedor-imagen{
     width: 100%;
 }
@@ -304,12 +353,10 @@ header {
     text-align:end;
     font-size: 2rem;
     line-height: 80px;
-   
 }
 
 
 .cajasRedes{
-    
     width: 100%;
 }
 
@@ -336,8 +383,12 @@ header {
         color: $blanco;
     }
 
-.contamos{
-   display: none;
+.contamos {
+    display: none;
+    width: 100%;
+    font-size: 1rem;
+    top: 35%;
+    color: $amarillointenso;
 }
 
 
@@ -430,6 +481,20 @@ header {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.mujer-pesas{
+    display: none;
+}
+
+.premium {
+  display: none;
+}
+
+.only{
+display: none;
+}
+
 
 /* -RESPONSIVE MOVIEL - EQUIPO FIN---------------------*/
 
