@@ -34,7 +34,6 @@ header {
 .navbar-nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -43,7 +42,6 @@ header {
 .nav-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     text-align: center;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -349,7 +347,6 @@ header {
 }
 
 .orange{
-
     position:absolute;
     height: 50%;
 }
@@ -394,21 +391,22 @@ header {
 /* -RESPONSIVE MOVIL - EQUIPO---------------------*/
 
 .fondonegroequipo{
-    background-color: $negro  
+    background-color: $negro;
+    position: relative; 
 }
 
 
 .textoequipo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    position: absolute;
-    text-align: center;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: $blanco;
-}
+    font-size: clamp(2rem, 5vw, 3.3rem);
+    top: 25%;
+    color:$blanco;
+    }
 
 .contamos {
     
@@ -416,6 +414,7 @@ header {
     font-size: 1rem;
     top: 35%;
     color: $blanco;
+    position: absolute;
 }
 
 
@@ -570,7 +569,6 @@ display: none;
 .navbar-nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -579,7 +577,6 @@ display: none;
 .nav-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     text-align: center;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -968,26 +965,25 @@ display: none;
 
 
 .fondonegroequipo{
-    background-color: $negro  
+    background-color: $negro;
+    position: absolute; 
 }
 
 .textoequipo {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
-    position: absolute;
     text-align: center;
-    top: 30%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: $blanco;
 }
 
 .contamos {
-    
     width: 100%;
     font-size: 1rem;
-    top: 35%;
+    top: 4%;
     color: $blanco;
 }
 
@@ -1133,7 +1129,6 @@ display: none;
 .navbar-nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -1142,7 +1137,6 @@ display: none;
 .nav-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     text-align: center;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -1396,7 +1390,7 @@ display: none;
     width: 90%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3.3rem;
-    top: 3%;
+    top: 5%;
     margin: 20px 0px;
     align-items: center;
     color:$blanco;
@@ -1513,7 +1507,8 @@ display: none;
 /* -RESPONSIVE TABLET - EQUIPO---------------------------------------------------------------*/
 
 .fondonegroequipo{
-    background-color: $negro  
+    background-color: $negro;
+    position: absolute; 
 }
 
 
@@ -1521,9 +1516,9 @@ display: none;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
-    position: absolute;
+    
     text-align: center;
-    top: 30%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: $blanco;
@@ -1532,7 +1527,7 @@ display: none;
 .contamos {
     width: 100%;
     font-size: 1rem;
-    top: 35%;
+    top: 10%;
     color: $blanco;
 }
 
