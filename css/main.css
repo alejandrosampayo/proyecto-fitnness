@@ -139,24 +139,6 @@ nav a {
   }
 }
 /*INICIO DE LOS ESTILOS INDEX*/
-.navbar-collapse {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.navbar-nav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
 .contenedor-imagen {
   position: relative;
   display: inline-block;
@@ -873,7 +855,7 @@ imagen-fonto {
 }
 .program .the-main-thing {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -934,6 +916,10 @@ imagen-fonto {
   width: 60%;
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+.p {
+  color: #DBF227;
 }
 
 /*FIN DE LOS ESTILOS EQUIPAMIENTO*/
@@ -1011,7 +997,7 @@ imagen-fonto {
     align-items: center;
   }
   nav {
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
   }
   .style {
@@ -1313,13 +1299,13 @@ imagen-fonto {
     width: 100%;
     font-family: "Times New Roman", Times, serif;
     font-size: clamp(2rem, 5vw, 3.3rem);
-    top: 25%;
+    top: 3%;
     color: #ffffff;
   }
   .contamos {
     width: 100%;
     font-size: 1rem;
-    top: 35%;
+    top: 4%;
     color: #ffffff;
     position: absolute;
   }
@@ -1413,6 +1399,7 @@ imagen-fonto {
     color: #ff4500;
   }
 }
+/* -RESPONSIVE MOVIEL - FOOTER---------------------*/
 /* -RESPONSIVE TABLET - INDEX---------------------*/
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   header {
@@ -1429,7 +1416,7 @@ imagen-fonto {
     align-items: center;
   }
   nav {
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
   }
   .style {
@@ -1871,7 +1858,7 @@ imagen-fonto {
     align-items: center;
   }
   nav {
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
   }
   .style {
@@ -2089,7 +2076,7 @@ imagen-fonto {
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
     font-family: "Times New Roman", Times, serif;
     font-size: 3.3rem;
     top: 5%;
@@ -2302,7 +2289,7 @@ imagen-fonto {
     align-items: center;
   }
   nav {
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
   }
   .style {
@@ -2602,7 +2589,7 @@ imagen-fonto {
     width: 100%;
     font-family: "Times New Roman", Times, serif;
     font-size: clamp(2rem, 5vw, 3.3rem);
-    top: 2%;
+    top: 3%;
     color: #ffffff;
   }
   .contamos {

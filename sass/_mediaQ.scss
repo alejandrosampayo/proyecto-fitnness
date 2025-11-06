@@ -22,7 +22,7 @@ header {
     }
 
     nav {
-        width: 90%;
+        width: 100%;
         justify-content: space-evenly;
     }
 
@@ -404,7 +404,7 @@ header {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: clamp(2rem, 5vw, 3.3rem);
-    top: 25%;
+    top: 3%;
     color:$blanco;
     }
 
@@ -412,7 +412,7 @@ header {
     
     width: 100%;
     font-size: 1rem;
-    top: 35%;
+    top: 4%;
     color: $blanco;
     position: absolute;
 }
@@ -525,12 +525,15 @@ display: none;
 /* -RESPONSIVE MOVIEL - EQUIPO FIN---------------------*/
 
 
+
 /* -RESPONSIVE MOVIEL - FOOTER---------------------*/
+
 .social{
     color: $naranga
 }
 }
 
+/* -RESPONSIVE MOVIEL - FOOTER---------------------*/
 
 
 
@@ -557,7 +560,7 @@ display: none;
     }
 
     nav {
-        width: 90%;
+        width: 100%;
         justify-content: space-evenly;
     }
 
@@ -1117,7 +1120,7 @@ display: none;
     }
 
     nav {
-        width: 90%;
+        width: 100%;
         justify-content: space-evenly;
     }
 
@@ -1387,7 +1390,7 @@ display: none;
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3.3rem;
     top: 5%;
@@ -1516,7 +1519,6 @@ display: none;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
-    
     text-align: center;
     top: 8%;
     left: 50%;
