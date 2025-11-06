@@ -63,6 +63,7 @@
     font-size: clamp(2.5rem, 5vw, 3.3rem);
     top: 5%;
     color:$blanco;
+    line-height: 80%;
     }
 
 .clases{
@@ -389,6 +390,7 @@
 
 
 
+
 /*FIN DE LOS ESTILOS EVENTOS -------------------------------------------------------*/
 
 
@@ -524,6 +526,9 @@
 display: none;
 }
 
+.marca{
+    display: none;
+}
 
 }
 

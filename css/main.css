@@ -139,6 +139,10 @@ nav a {
   }
 }
 /*INICIO DE LOS ESTILOS INDEX*/
+.mi-imagen {
+  width: 100%; /* Ancho deseado */
+}
+
 .contenedor-imagen {
   position: relative;
   display: inline-block;
@@ -896,13 +900,13 @@ imagen-fonto {
   margin-top: -50px;
   position: absolute;
   top: 260%;
-  right: 550px;
+  right: 545px;
   text-align: center;
   font-size: 1rem;
   transform: translate(-50%, -50%);
   font-size: 1rem;
   font-weight: 700;
-  color: #3b3b3b;
+  color: #ff4500;
 }
 
 .only {
@@ -912,10 +916,27 @@ imagen-fonto {
   align-items: center;
   position: absolute;
   right: 130px;
-  margin-bottom: 750px;
+  margin-bottom: 700px;
   width: 60%;
   font-size: 2.5rem;
   font-weight: 700;
+  line-height: 50px;
+}
+
+.marca {
+  margin-left: 40px;
+  margin-top: -50px;
+  position: absolute;
+  top: 290%;
+  left: 63.8%;
+  text-align: start;
+  font-size: 1rem;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #919090;
+  padding: 0px;
+  margin: 0%;
 }
 
 .p {
@@ -1393,6 +1414,9 @@ imagen-fonto {
   .only {
     display: none;
   }
+  .marca {
+    display: none;
+  }
   /* -RESPONSIVE MOVIEL - EQUIPO FIN---------------------*/
   /* -RESPONSIVE MOVIEL - FOOTER---------------------*/
   .social {
@@ -1841,6 +1865,9 @@ imagen-fonto {
   .only {
     display: none;
   }
+  .marca {
+    display: none;
+  }
 }
 /* -RESPONSIVE TABLET - EQUIPO------FIN------------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -2272,6 +2299,9 @@ imagen-fonto {
   .only {
     display: none;
   }
+  .marca {
+    display: none;
+  }
 }
 @media only screen and (min-width: 300px) and (max-width: 479px) {
   /*INICIO DE LOS ESTILOS INDEX ------------------------------------------------------*/
@@ -2320,6 +2350,7 @@ imagen-fonto {
     font-size: clamp(2.5rem, 5vw, 3.3rem);
     top: 5%;
     color: #ffffff;
+    line-height: 80%;
   }
   .clases {
     display: none;
@@ -2677,6 +2708,9 @@ imagen-fonto {
     display: none;
   }
   .only {
+    display: none;
+  }
+  .marca {
     display: none;
   }
 }

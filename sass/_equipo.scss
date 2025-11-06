@@ -105,13 +105,13 @@
   margin-top: -50px;
   position: absolute;
   top: 260%;
-  right: 550px;
+  right: 545px;
   text-align: center;
   font-size: 1rem;
   transform: translate(-50%, -50%);
   font-size: 1rem;
   font-weight: 700;
-  color: $grismasoscuro;
+  color: $naranga;
 }
 
 .only{
@@ -121,12 +121,34 @@
   align-items: center;
   position: absolute;
   right: 130px;
-  margin-bottom:750px;
+  margin-bottom:700px;
   width: 60%;
   font-size: 2.5rem;
   font-weight: 700;
+  line-height: 50px;
   
 }
+
+.marca{
+  
+  margin-left: 40px;
+  margin-top: -50px;
+  position: absolute;
+  top: 290%;
+  left:63.8%;
+  text-align: start;
+  font-size: 1rem;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  font-weight: 700;
+  color: $grismedio;
+  padding: 0px;
+  margin: 0%;
+  
+}
+
+
+
 
 .p{
   color: $amarillointenso;
